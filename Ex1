@@ -1,0 +1,39 @@
+<head>
+  <title>Ex1</title>
+</head>
+<body>
+  <h1>A Linguagem HTML
+  <img src="https://upload.wikimedia.org/wikipedia/commons/thumb/6/61/HTML5_logo_and_wordmark.svg/1200px-HTML5_logo_and_wordmark.svg.png" width="35" height="35">
+  </h1>
+  <p>HTML (abreviação para a expressão inglesa HyperText Markup Language, que significa Linguagem de Marcalçao de Hipertexto) é uma linguagem de marcação utilizada na construção de páginas na Web. Documentos HTML podem ser interpretados por navegadores.</p>
+  <p>Algun dos recursos da linguagem vistos até este momento: </p>
+  <table border=1>
+    <tbody>
+    <tr>
+      <td>Recrusos</td><!-- apenas seguindo o slide ;p -->
+      <td>Tags associadas</td>
+      <td>Descrição</td>
+    </tr>
+    <tr>
+      <td>Links</td>
+      <td>&lt;a&gt;</td>
+      <td>Criar links entre páginas</td>
+    </tr>
+    <tr>
+      <td rowspan=2>Listas</td>
+      <td>&lt;ul&gt; e &lt;li&gt;</td>
+      <td>Criar listas de itens não ordenados</td> <!-- okay dessa vez eu corrigi o slide xD -->     
+    </tr>
+    <tr>
+      <td>&lt;ol&gt; e &lt;li&gt;</td>
+      <td>Criar listas de itens ordenados</td>     
+    </tr>
+    <tr>
+      <td>Imagens</td>
+      <td>&lt;img&gt;</td>
+      <td>Inserir imagens</td>     
+    </tr>
+    </tbody>
+  </table>
+  
+</body>
