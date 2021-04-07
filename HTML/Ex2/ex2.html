@@ -1,0 +1,74 @@
+<head>
+  <title>Ex2</title>
+</head>
+<body>
+  <h1>Formulario de Contato</h1>
+  <form>
+  <fieldset> 
+    <legend>Dados Básicos</legend>
+    <label for="nome">Nome</label>
+    <input type="text" name="nome" id="nome"><br>
+    <label for="mail">E-mail</label>
+    <input type="email" name="mail" id="mail" placeholder="seunome@dominio.com.br"><br>
+    <label for="">Website</label>
+    <input type="text" name="site" id="site" value="http://"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Seu Curso no Instituto de Computação</legend>
+    <input type="radio" name="curso" id="cc">
+    <label for="cc">Ciência da Computação</label><br>
+    <input type="radio" name="curso" id="si">
+    <label for="si">Sistemas de Informação</label><br>
+    <input type="radio" name="curso" id="ec">
+    <label for="ec">Engenharia da Computação</label><br>
+  </fieldset>
+  <fieldset>
+    <legend>Assinale as linguagens já usadas por você:</legend>
+    <label for="java">Java</label>
+    <input type="checkbox" name="linguagens" id="java">
+    <label for="c">C</label>
+    <input type="checkbox" name="linguagens" id="c">
+    <label for="c++">C++</label>
+    <input type="checkbox" name="linguagens" id="c++">
+    <label for="pearl">Pearl</label>
+    <input type="checkbox" name="linguagens" id="pearl">
+    <label for="python">Python</label>
+    <input type="checkbox" name="linguagens" id="python">
+    <label for="javascript">Javascript</label>
+    <input type="checkbox" name="linguagens" id="javascript">
+  </fieldset>
+  <fieldset>
+    <legend>Dados Complementares</legend>
+    <label for="cor">Cor Favorita</label>
+    <input type="color" name="cor" id="cor"><br>
+    <label for="nascimento">Data de nascimento</label>
+    <input type="date" name="nascimento" id="nascimento"><br>
+    <label for="ano-entrada">Ano de entrada em seu curso do IComp</label>
+    <input type="number" name="ano-entrada" id="ano-entrada" min="2011" max="2021" value="2021"><br>
+    <label for="nota">Nota para este site</label>
+    <input type="range" name="nota" id="nota" value ="0"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Área de Atuação</legend>
+      <select name="area" id="area">
+        <option value="1">Banco de Dados</option>
+        <option value="2">Educação a Distância</option>
+        <option value="3">Engenharia de Software</option>
+        <option value="4">Otimização</option>
+        <option value="5">Programação para a Web</option>
+        <option value="6">Recuperação de Informação</option>
+        <option value="7">Redes de Computadores</option>
+      </select>
+  </fieldset>
+  <fieldset>
+    <legend>Submeta seu Cúrriculo Vitae</legend>
+    <input type="file" name="curriculo" id="curriculo"><br>
+  </fieldset>
+  <fieldset>
+    <legend>Escreva sua mensagem</legend>
+    <textarea name="mensagem" rows="4" cols="30">Este é o valor padrão!         </textarea>
+  </fieldset>
+  <input type="reset" name="reset" value="Resetar Dados">
+  <input type="submit" name="submit" value="Enviar Dados">  
+  </form>
+</body>
