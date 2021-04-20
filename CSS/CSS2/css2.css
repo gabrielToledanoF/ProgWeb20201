@@ -1,0 +1,26 @@
+body{
+  background-color:black;
+  margin-left: 15%;
+}
+.imagem{
+  width: 1100px;
+  height: 800px;
+  background-image: url("https://lh3.googleusercontent.com/proxy/WS9gHHvSXn15lqO9YY24k4DOKocA4EQja7mIhjBi-NP66VTCQqt6QAz9S1B21p1Kg4QBKQREDRMtFkVrtpGU89rkHARdBRLu8W0uunJI_Cd8iYNiRGZDGqNKx26zdSOE4w");
+  background-repeat: no-repeat;
+  background-size: 1100px 800px;
+}
+.texto{
+  width: 350px;
+  height: 300px; 
+  overflow-y: scroll;
+  position: absolute;
+  text-align: left;
+  top: 75px;
+  right: 900px;
+  line-height: 30px;
+  background-color: black;
+  color: white;
+  border: 20px double white;
+  border-radius: 10px;
+  opacity: 50%;
+}
