@@ -1,0 +1,10 @@
+#flex{
+  margin-top: 25px;
+}
+
+#flex > div{
+  background-color: red;
+  left: 1px;
+  display: inline-block;
+}
+
