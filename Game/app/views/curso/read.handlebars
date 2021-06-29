@@ -1,0 +1,21 @@
+<div class="card text-white bg-primary mb-3" style="max-width: 20rem;">
+    <div class="card-header">
+        {{curso.nome}}
+        <div>
+            <a href="/curso/update/{{curso.id}}"><i class="fas fa-pen"></i></a>
+            <a href="/curso/delete/{{curso.id}}"><i class="far fa-trash-alt"></i></a>  
+        </div>
+    </div>
+    <div class="card-body">
+        <div>
+            <b>Sigla: </b> {{curso.sigla}}
+        </div>
+        <div>
+            <b>Descricao: </b> {{curso.descricao}}
+        </div>
+        <div>
+            <b>Area: </b> {{curso.Area.nome}}
+        </div>
+    </div>
+</div>
+<a href="/curso/" class="btn btn-light">Voltar</a>

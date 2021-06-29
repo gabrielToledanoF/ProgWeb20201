@@ -1,0 +1,67 @@
+$branco:#EEEEEE;
+$preto: #111111;
+
+
+form [type="submit"]{
+	margin-top: 25px;
+	margin-bottom: 40px;
+}
+
+.options{
+	text-align: right;
+}
+
+.options a {
+	padding-left: 12px;
+}
+
+#board {
+    background-color: $branco;
+    border: 1px solid $preto;
+    font-size: 50px;
+    text-align: center;
+	position: relative;
+    top: 50%;
+    left: 35%;
+}
+
+#board td {
+    width: 12px;
+    height: 12px;
+}
+
+#board p{
+	color: $preto;
+	top: 50%;
+	right: 50%;
+	width: 50px;
+	height: 50px;
+	font-size: 50px;
+}
+
+#placar {
+	color: $preto;
+	background-color: $branco;
+	border: 1px solid $preto;
+	top: 0px;
+	width: 5px;
+	height: 5px;
+	font-size: 25px;
+	margin-top: 10px;
+	position: relative;
+    top: 50%;
+    left: 35%;
+}
+
+.form-group .invalid-feedback {
+	display:block;
+}
+
+.center{
+	display: block;
+ 	margin-left: auto;
+  	margin-right: auto;
+	margin-bottom: 25px;
+	width: 350px;
+	height: 350px;
+}
